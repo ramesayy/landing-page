@@ -1,0 +1,135 @@
+*   {
+    background-color: beige;
+    z-index: 1;
+}
+img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 10%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.nav-links ul li{
+    flex: 1;
+    display: inline-block;
+    list-style: none;
+    padding: 5px 10px;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    font-family: cursive;
+    color: orange;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.info h1    {
+    font-size: 44px;
+    font-family: cursive;
+    color: red;
+    margin-left: 10%;
+}
+.info p    {
+    font-size: 20px;
+    font-family: cursive;
+    color: orange;
+    margin-left: 10%;
+}
+.info button    {
+    font-size: 20px;
+    font-family: cursive;
+    color: orange;
+    margin-left: 10%;
+    border-color: red;
+    border-radius: 10px;
+    background-color: red;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pic {
+    margin-right: 20%;
+
+}
+.pic img    {
+    height: 280px;
+    width: 400px;
+    padding-top: 15%;
+}
+
+.pizzas h2  {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    color: orange;
+    font-weight: bold;
+    font-family: cursive;
+}
+.types  {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.types span   {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: orange;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+.testimonial {
+
+    font-size: 30px;
+    font-family: cursive;
+    color: red;
+    padding: 0 100px;
+}
+.author {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text-box   {
+    width: 600px;
+    margin: 0 auto;
+
+}
+.text-box h3{
+    font-weight: bolder;
+    font-family: cursive;
+    color: red;
+}
+.text-box p{
+    font-family: cursive;
+    color: orange;
+}
+.text-box button    {
+    font-size: 15px;
+    font-family: cursive;
+    color: orange;
+    border-color: red;
+    border-radius: 10px;
+    background-color: red;
+    padding: 5px 25px;
+
+}
+.footer {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+.call   {
+    display: flex;
+    text-align:  center;
+}
